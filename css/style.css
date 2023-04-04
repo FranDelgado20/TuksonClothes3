@@ -1,0 +1,146 @@
+a {
+  text-decoration: none;
+}
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.img-logo {
+    width: 100px;
+    /* border:0.1px solid white; */
+    border-radius: 50% ;
+}
+/* .boton{
+    border: 1px #29821E solid;
+} */
+.boton:hover {
+    background-color: #29821e;
+    transition: 1000ms;
+  border: 1px solid white;
+}
+/* .boton-drop:hover{
+    background-color: #29821E;
+    transition: 1000ms;
+} */
+.div-boton {
+  width: 100%;
+  text-align: center;
+}
+.div-boton:hover {
+    background-color: #29821e;
+    transition: 1000ms;
+    border: 1px solid black;
+}
+.boton-li {
+    list-style: none;
+}
+.flex-li{
+    display: flex;
+  }
+  .visible{
+    visibility: visible;
+  }
+  /* .footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  } */
+  .footer-tit{
+    color: white;
+  }
+  .img-footer{
+    width: 60px;
+  }
+  .col-3-css{
+    height: 50%;
+  }
+  
+  
+  /* .footer-register{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  } */
+ .main-register{
+    height: 320px;
+    align-items: center;
+ }
+ .section-register{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+   
+ }
+ .div-register{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+ }
+ .form-ingreso{
+    height: 100%;
+    align-items: center;
+ }
+ .section-ingreso{
+    border-right: 3px solid ;
+ }
+ .div-ingreso-a{
+  position: relative;
+ }
+ /* .div-ingreso{
+  position: absolute;
+  top: 240px;
+  right: 650px;
+
+
+ } */
+ /* .cartas{
+    width: 20%;
+ } */
+ .tamaño-card{
+  width: 280px;
+ }
+ 
+
+@media (max-width: 991px) {
+  .tamaño-buscador {
+    width: 35%;
+    justify-content: flex-start;
+    display: flex;
+  }
+  .boton {
+    text-align: center;
+    
+  }
+  .flex-li{
+    display: block;
+  }
+  .visible{
+   display: none;
+  }
+}
+@media(min-width: 300px) and (max-width:767px){
+  .margin-sm{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .footer-col{
+    text-align: center;
+  }
+}
+@media(min-width: 768px) and (max-width:990px){
+  .margin-sm{
+    display: flex;
+    justify-content: center;
+  
+  }
+}
